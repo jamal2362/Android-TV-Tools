@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android TV Tools</string>
+    <string name="allow_usb_debugging_dialog">Please allow the dialog box for USB debugging</string>
+    <string name="delete_app_caches">Delete app caches</string>
+    <string name="device_info">Device Info</string>
+    <string name="enable_usb_debugging_first">Enable USB debugging first in the developer options</string>
+    <string name="optimize_speed_profile">Optimizes speed profile</string>
+    <string name="speed_up_transitions">Speed Up transitions</string>
+    <string name="suspended_cached_applications">Improve suspended execution of cached applications</string>
+    <string name="speed_management_system">Enables the processing speed management system</string>
+    <string name="ip" translatable="false">127.0.0.1</string>
+</resources>

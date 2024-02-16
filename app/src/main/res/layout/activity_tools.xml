@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/ic_android"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="#ECECEC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/ip"
+        android:textColor="#ECECEC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDeleteAppCaches"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text="@string/delete_app_caches"
+            android:textAllCaps="true"
+            android:textColor="#ECECEC" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSpeedProfile"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text="@string/optimize_speed_profile"
+            android:textAllCaps="true"
+            android:textColor="#ECECEC" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSpeedUpTransitions"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text="@string/speed_up_transitions"
+            android:textAllCaps="true"
+            android:textColor="#ECECEC" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSuspendedCachedApplications"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text="@string/suspended_cached_applications"
+            android:textAllCaps="true"
+            android:textColor="#ECECEC" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSpeedManagementSystem"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text="@string/speed_management_system"
+            android:textAllCaps="true"
+            android:textColor="#ECECEC" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDeviceInfo"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text="@string/device_info"
+            android:textAllCaps="true"
+            android:textColor="#ECECEC" />
+
+    </LinearLayout>
+
+</LinearLayout>
