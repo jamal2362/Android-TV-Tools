@@ -118,7 +118,7 @@ class MainActivity : Activity() {
                     stream = connection?.open("shell:settings put global cached_apps_freezer enabled")
                     Log.d("MainActivity", "Case 40 executed A")
                     Thread.sleep(250)
-                    stream = connection?.open("shell:adb shell settings put secure tap_duration_threshold 0.0")
+                    stream = connection?.open("shell:settings put secure tap_duration_threshold 0.0")
                     Log.d("MainActivity", "Case 40 executed B")
                     Thread.sleep(250)
                     stream = connection?.open("shell:settings put secure touch_blocking_period 0.0")
